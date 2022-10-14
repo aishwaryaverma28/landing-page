@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: rgb(206, 168, 168); */
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+.logo img{
+    margin: 0;
+    height: auto;
+    width: 47px;
+    float: left;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    position:sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 10px;
+    float:right;
+   }
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+nav ul li a:hover{
+    background: brown;
+}
+
+.container{
+    background:rgba(0,0,0,0.7)url("backgrnd.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 990px;
+   
+}
+.site_title{
+    top: 50%;
+    left: 15%;
+    z-index: 2;
+}
+.site_title h1{
+    padding-top: 30px;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;   
+    font-family: 'Alkalami', serif;
+}
+.site_title p{
+font-size: 35px;
+text-align: center;
+margin: 0;
+margin-top: 10px;
+}
+.detail{
+    text-align: justify;
+    text-indent: 10%;
+    font-style: italic;
+    font-size: 25px;
+}   
+
+.info{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    list-style:inside;
+}
+.chat-bot{
+    position: fixed;
+    bottom: 40px;
+    right:10px;
+    z-index: 1;
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .chat-bot a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #e2b554;
+    margin-left: 150px;
+    padding: 10px 15px;
+  }
+  
+.f_container{
+    padding-top: 100px;
+    display: flex;
+}
+   .box1
+   {
+    width: 300px;
+    height: 155px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px 20px rgba(0, 0, rgb(34, 34, 105), 0.1);
+    transition: 1s;
+}
+   .box2, .box3
+   {
+    width: 300px;
+    height: 180px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px 20px rgba(0, 0, rgb(34, 34, 105), 0.1);
+    transition: 1s;
+}
+    .box4
+    {
+        width: 300px;
+        height: 140px;
+        margin: 0 10px;
+        box-shadow: 0 0 10px 20px rgba(0, 0, rgb(34, 34, 105), 0.1);
+        transition: 1s;
+    }
+    .box5{
+        width: 300px;
+        height: 160px;
+        margin: 0 10px;
+        box-shadow: 0 0 10px 20px rgba(0, 0, rgb(34, 34, 105), 0.1);
+        transition: 1s;
+    }
+    img{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .box1:hover{
+       transform: scale(1.3);
+       z-index: 2;
+       box-shadow: 6px 6px 40px 10px #0000ff;
+    }
+    .box2:hover{
+        transform: scale(1.3);
+        z-index: 2;
+        box-shadow: 6px 6px 40px 10px #ff0010;
+     }
+     .box3:hover{
+        transform: scale(1.3);
+        z-index: 2;
+        box-shadow: 6px 6px 40px 10px #ae00ff;
+     }
+     .box4:hover{
+        transform: scale(1.3);
+        z-index: 2;
+        box-shadow: 6px 6px 40px 10px #00ffff;
+     }
+     .box5:hover{
+        transform: scale(1.3);
+        z-index: 2;
+        box-shadow: 6px 6px 40px 10px #00ff95;
+     }
+     .tag{
+        background-color: lightpink;
+        height: 5rem;
+           font-style: italic;
+           font-size:1.0rem;
+           text-align: center;
+           padding: 35px 130px;
+        }
+        .fcontainer{
+           background-color: brown;
+           height: 4rem;
+           padding: 35px 150px;
+            font-style: italic;
+            font-size:1.3rem;
+            text-align: center;
+           }
+       .btn{
+        color:black;
+        height: 2rem;
+        width: 5rem;
+        background:lightgrey;
+       }
+       .btn:hover{
+        transform: scale(1.3);
+        z-index: 2;
+        box-shadow:6px 6px 40px 10px grey;
+        cursor:grab;
+       }
+       .foot{
+        background-color:burlywood;
+           height: 1rem;
+           padding: 35px 150px;
+              font-style: italic;
+              font-size:1.3rem;
+              text-align: center;
+       }
